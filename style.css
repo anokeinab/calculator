@@ -1,3 +1,11 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+
+}
 #calculator{
     font-size: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
@@ -6,7 +14,7 @@
     overflow: hidden;
 }
 #display{
-    width: 100%
+    width: 100%;
     padding: 20px;
     font-size: 5rem;
     text-align: left;
